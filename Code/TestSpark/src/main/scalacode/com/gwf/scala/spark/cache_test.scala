@@ -28,6 +28,10 @@ object cache_test {
     val endWithCache = System.currentTimeMillis()
     println(s"Time With Cache: ${endWithCache - startWithCache}ms, count is ${countWithCache}")
 
+    // 如果当前的 RDD 在之后没什么用了，就不需要继续放在内存中了
+    // unpersist 可以把当前 rdd 从内存中卸载
+    rdd.unpersist()
+
     sc.stop()
   }
 }
