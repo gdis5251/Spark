@@ -2,117 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e308426-83f1-4015-b135-9c96f03756ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestSpark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cp/c18ca392-6b58-49f6-9969-70c8d6048238/rdd-1/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cp/c18ca392-6b58-49f6-9969-70c8d6048238/rdd-1/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scalacode/com/gwf/scala/spark/simple_api.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__colt_colt_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_codahale_metrics_metrics_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_codahale_metrics_metrics_graphite_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_codahale_metrics_metrics_json_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_codahale_metrics_metrics_jvm_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_ning_compress_lzf_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_twitter_chill_2_10_0_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_twitter_chill_java_0_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__com_typesafe_config_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__concurrent_concurrent_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__hsqldb_hsqldb_1_8_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__io_netty_netty_3_6_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__net_sf_py4j_py4j_0_8_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_commons_commons_math_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_hadoop_hadoop_core_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_mesos_mesos_shaded_protobuf_0_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_spark_spark_core_2_10_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_jndi_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_8_1_14_v20131031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_activation_1_1_0_v201105071233.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_mail_glassfish_1_4_1_v201005082020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_transaction_1_1_1_v201105210645.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_json4s_json4s_core_2_10_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_json4s_json4s_jackson_2_10_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_scala_lang_scalap_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_spark_project_akka_akka_actor_2_10_2_2_3_shaded_protobuf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_spark_project_akka_akka_remote_2_10_2_2_3_shaded_protobuf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_spark_project_akka_akka_slf4j_2_10_2_2_3_shaded_protobuf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_spark_project_protobuf_protobuf_java_2_4_1_shaded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_spark_project_pyrolite_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_tachyonproject_tachyon_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_tachyonproject_tachyon_client_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spark_example/learning-spark/mini-complete-example/learning-spark-mini-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scalacode/com/gwf/scala/spark/persist.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestSpark.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestSpark.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +59,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.simple_api">
+  <component name="RunManager" selected="Application.persist">
     <configuration name="cache_test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.cache_test" />
       <module name="TestSpark" />
@@ -195,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple_api" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.simple_api" />
+    <configuration name="persist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.persist" />
       <module name="TestSpark" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spark_wordcount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.spark_wordcount" />
+    <configuration name="simple_api" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.simple_api" />
       <module name="TestSpark" />
       <extension name="coverage">
         <pattern>
@@ -236,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.persist" />
         <item itemvalue="Application.simple_api" />
         <item itemvalue="Application.checkpoint_test" />
         <item itemvalue="Application.cache_test" />
         <item itemvalue="Application.transformations" />
-        <item itemvalue="Application.spark_wordcount" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +147,8 @@
       <updated>1587712930374</updated>
       <workItem from="1589216630062" duration="39000" />
       <workItem from="1589216681419" duration="323000" />
-      <workItem from="1589249507676" duration="1986000" />
+      <workItem from="1589249507676" duration="2218000" />
+      <workItem from="1589337128423" duration="495000" />
     </task>
     <servers />
   </component>
@@ -267,42 +159,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="561" key="GridCell.Tab.0.bottom" timestamp="1589217016044">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="632" key="GridCell.Tab.0.bottom" timestamp="1589265234449">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756294" />
     <state width="1628" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788350" />
-    <state width="1868" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589097952002" />
+    <state width="1878" height="632" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589265234449" />
     <state width="1868" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846480" />
     <state width="1628" height="417" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1588942870255" />
     <state width="1628" height="416" key="GridCell.Tab.0.bottom/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
     <state width="1878" height="561" key="GridCell.Tab.0.bottom/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589217016044" />
-    <state width="1878" height="561" key="GridCell.Tab.0.center" timestamp="1589217016043">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="632" key="GridCell.Tab.0.center" timestamp="1589265234445">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756292" />
     <state width="1628" height="416" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788348" />
-    <state width="1868" height="431" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589097952000" />
+    <state width="1878" height="632" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589265234445" />
     <state width="1868" height="431" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846478" />
     <state width="1628" height="417" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1588942870254" />
     <state width="1628" height="416" key="GridCell.Tab.0.center/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
     <state width="1878" height="561" key="GridCell.Tab.0.center/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589217016043" />
-    <state width="1878" height="561" key="GridCell.Tab.0.left" timestamp="1589217016042">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="632" key="GridCell.Tab.0.left" timestamp="1589265234444">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756291" />
     <state width="1628" height="416" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788347" />
-    <state width="1868" height="431" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589097951999" />
+    <state width="1878" height="632" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589265234444" />
     <state width="1868" height="431" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846477" />
     <state width="1628" height="417" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1588942870252" />
     <state width="1628" height="416" key="GridCell.Tab.0.left/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637084" />
     <state width="1878" height="561" key="GridCell.Tab.0.left/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589217016042" />
-    <state width="1878" height="561" key="GridCell.Tab.0.right" timestamp="1589217016044">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="632" key="GridCell.Tab.0.right" timestamp="1589265234447">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756293" />
     <state width="1628" height="416" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788349" />
-    <state width="1868" height="431" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589097952001" />
+    <state width="1878" height="632" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589265234447" />
     <state width="1868" height="431" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846479" />
     <state width="1628" height="417" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1588942870254" />
     <state width="1628" height="416" key="GridCell.Tab.0.right/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
