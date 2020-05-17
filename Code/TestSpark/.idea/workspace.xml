@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e308426-83f1-4015-b135-9c96f03756ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scalacode/com/gwf/scala/spark/pairRDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scalacode/com/gwf/scala/pratice/seq.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scalacode/com/gwf/scala/spark/wholeTextFile.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,24 +58,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pairRDD">
-    <configuration name="create_RDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.create_RDD" />
-      <module name="TestSpark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gwf.scala.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.seq">
     <configuration name="flatmap" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.flatmap" />
       <module name="TestSpark" />
@@ -112,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="union" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.union" />
+    <configuration name="seq" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.pratice.seq" />
+      <module name="TestSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gwf.scala.pratice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wholeTextFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gwf.scala.spark.wholeTextFile" />
       <module name="TestSpark" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.seq" />
+        <item itemvalue="Application.wholeTextFile" />
         <item itemvalue="Application.pairRDD" />
         <item itemvalue="Application.flatmap" />
         <item itemvalue="Application.map" />
-        <item itemvalue="Application.union" />
-        <item itemvalue="Application.create_RDD" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +157,8 @@
       <workItem from="1589337128423" duration="3175000" />
       <workItem from="1589359806685" duration="1194000" />
       <workItem from="1589422716401" duration="1067000" />
+      <workItem from="1589459804454" duration="2388000" />
+      <workItem from="1589683895462" duration="962000" />
     </task>
     <servers />
   </component>
@@ -161,46 +169,46 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589360676171">
+    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589462854054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589360676171" />
-    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1589424268661">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state x="698" y="313" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589462854054" />
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1589684774061">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756294" />
     <state width="1628" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788350" />
-    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589364868287" />
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589684774061" />
     <state width="1868" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846480" />
     <state width="1628" height="417" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1588942870255" />
     <state width="1628" height="416" key="GridCell.Tab.0.bottom/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
     <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589424268661" />
-    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1589424268658">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1589684774059">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756292" />
     <state width="1628" height="416" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788348" />
-    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589364868284" />
+    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589684774059" />
     <state width="1868" height="431" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846478" />
     <state width="1628" height="417" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1588942870254" />
     <state width="1628" height="416" key="GridCell.Tab.0.center/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
     <state width="1878" height="252" key="GridCell.Tab.0.center/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589424268658" />
-    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1589424268658">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1589684774058">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756291" />
     <state width="1628" height="416" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788347" />
-    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589364868282" />
+    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589684774058" />
     <state width="1868" height="431" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846477" />
     <state width="1628" height="417" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1588942870252" />
     <state width="1628" height="416" key="GridCell.Tab.0.left/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637084" />
     <state width="1878" height="252" key="GridCell.Tab.0.left/0.23.1920.993/-1680.23.1680.1027@0.23.1920.993" timestamp="1589424268658" />
-    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1589424268659">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1589684774060">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1628" height="417" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1588942756293" />
     <state width="1628" height="416" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@-1680.0.1680.1050" timestamp="1589159788349" />
-    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589364868285" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1589684774060" />
     <state width="1868" height="431" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.23.1680.1027@0.0.1920.1080" timestamp="1589098846479" />
     <state width="1628" height="417" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1588942870254" />
     <state width="1628" height="416" key="GridCell.Tab.0.right/0.23.1920.993/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1589172637085" />
