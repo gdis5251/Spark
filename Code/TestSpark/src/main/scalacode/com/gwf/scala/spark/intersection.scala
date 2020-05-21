@@ -22,5 +22,9 @@ object intersection {
     val rdd6 = sc.parallelize(List(("GuoWenfeng", 22), ("HuYue", 21), ("Seligman", 21)))
     val rdd7 = rdd5 join rdd6
     println(rdd7.collect.toBuffer)
+
+    val rdd8 = sc.parallelize(List(("Gerald", 1), ("GuoWenfeng", 2), ("HuYue", 3),("GuoWenfeng", 22), ("HuYue", 21), ("Seligman", 21)))
+    val rdd9 = rdd8.groupBy(_._1)
+    println(rdd9.collect().toBuffer )
   }
 }
