@@ -13,6 +13,7 @@ object flatmap {
       line.split(" ")
     })
 
-    words.foreach(println)
+//    words.foreach(println)
+    println(words.collect().toBuffer)
   }
 }
