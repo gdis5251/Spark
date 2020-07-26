@@ -26,5 +26,9 @@ object intersection {
     val rdd8 = sc.parallelize(List(("Gerald", 1), ("GuoWenfeng", 2), ("HuYue", 3),("GuoWenfeng", 22), ("HuYue", 21), ("Seligman", 21)))
     val rdd9 = rdd8.groupBy(_._1)
     println(rdd9.collect().toBuffer )
+
+    // 第一个小括号内的是默认值，是通过key计算完还有计算全局
+    val rdd8_1 = rdd8.aggregateByKey(1)(_ + _, _ + _)
+    println(rdd8_1.collect.toList)
   }
 }
